@@ -1,0 +1,63 @@
+@media screen and (max-width: 1600px) {
+    .work{
+        width:370px;
+        height:250px;
+      }
+      figure {
+        width: 300px;
+        height: 200px;
+      } 
+      .visit{
+          width: 100px;
+          height: 30px;
+          font-size:15px;
+      }
+
+      
+}
+@media screen and (max-width: 1420px){
+    .about h3{
+        font-size: 20px;
+    }
+} 
+@media screen and (max-width: 1230px){
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .dev-items>img{
+        width: 70px;
+        height: 70px;
+
+    }
+    .lvl-bg{
+        width: 300px;
+        height: 20px;
+        background-color: #2a2a2a;
+      }
+      .html-lvl{
+        width: 290px;
+        height: 20px;
+        background-color:  	red;
+      }
+      .css-lvl{
+        width: 240px;
+        height: 20px;
+        background-color: red;
+      }
+      .js-lvl{
+        width: 150px;
+        height: 20px;
+        background-color: red;
+      
+      }
+      .ps-lvl{
+        width: 170px;
+        height: 20px;
+        background-color: red;
+      }
+      
+      
+} 

@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+:root{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Lexend Peta', sans-serif;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.paralax{
+ background-color: black;
+ margin: 10px;
+}
+h1{
+  font-size: 80px;
+  text-align: center;
+  color:whitesmoke;
+
+}
+h2{
+  text-align: center;
+  color:whitesmoke;
+  font-size: 30px;
+  padding-bottom: 20px;
+
+}
+.s1{
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  
+  
+
+}
+.s2, .s3{
+  background-color: black;
+}
+.s4{
+  background-image: url(../img/bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.s5{
+  background-color: #2a2a2a;
+}
+#fp-nav ul li a span{
+  background: #fff !important;
+}
+.dev-skill{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.dev-items>img{
+  width: 100px;
+  height: 100px;
+}
+.dev-items{
+  text-align: center;
+  padding: 50px;
+}
+h3{
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.lvl-bg{
+  width: 500px;
+  height: 30px;
+  background-color: #2a2a2a;
+}
+.html-lvl{
+  width: 450px;
+  height: 30px;
+  background-color:  	red;
+}
+.css-lvl{
+  width: 400px;
+  height: 30px;
+  background-color: red;
+}
+.js-lvl{
+  width: 250px;
+  height: 30px;
+  background-color: red;
+
+}
+.ps-lvl{
+  width: 300px;
+  height: 30px;
+  background-color: red;
+}
+.skills{
+  display: flex;
+  justify-content: center;
+}
+.skills>ul{
+  padding: 50px;
+  list-style-type:none;
+}
+.work{
+  margin: 10px;
+  width:500px;
+  height:300px;
+  background-color: #333;
+}
+.work-main{
+  margin-top: 10vh;
+  justify-content: center;
+  display: flex;
+  flex-wrap:wrap;
+}
+.work:nth-child(1){
+  background-image: url(../img/bg3.png);
+  background-size: cover;
+}.work:nth-child(2){
+  background-image: url(../img/site1.png);
+  background-size: cover;
+}
+.work:nth-child(3){
+  background-image: url(../img/site2.png);
+  background-size: cover;
+}
+.work:nth-child(4){
+  background-image: url(../img/site3.png);
+  background-size: cover;
+}
+.work:nth-child(5){
+  background-image: url(../img/V1j.gif);
+  background-size: cover;
+  background-position: center;
+}
+.work:hover{
+background-blend-mode: overlay; 
+}
+.s4 h1{
+  text-align: left;
+  padding-left: 150px;
+}
+.me{
+  position: absolute;
+  width: 600px;
+  width: 600px;
+  margin-left:15vw;
+}
+.me:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.about{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.about h3{
+  color: #333;
+  padding-right: 5vw;
+  margin-top: 20vh;
+  margin-right:30vw ;
+  font-weight: 100;
+  width: 40vw;
+  height: 50vh;
+  font-size: 27px;
+  text-align: left;
+  background-color: whitesmoke; 
+}
+.about ul:hover{
+  width: 40vw;
+  height: 50vh;
+  position: absolute;
+  background-color: whitesmoke;
+  transition: 0.3s ease-in-out;
+  box-shadow:0 2px 4px rgba(0, 0, 0, .5);
+  padding: 10px;
+}
+.about>h3:hover{
+  background: none;
+  transition: 0.4s ease-in-out;
+}
+.about li{
+  padding: 10px;
+  list-style-type:none;
+}
+.contact{
+  background-color: whitesmoke;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.contact-main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.contact:nth-child(1){
+background-size: cover;
+background-image: url(../img/git.jpg);
+}
+.contact:nth-child(4){
+  background-size: cover;
+  background-image: url(../img/gmail.png);
+}
+.contact:nth-child(2){
+  background-size: cover;
+  background-image: url(../img/tg.jpg);
+}
+.contact:nth-child(3){
+  background-size: cover;
+  background-image: url(../img/vk.png);
+}
+.arrow{
+  position: absolute;
+  margin-top: 85vh;
+  top: 0;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  font-size: 100px;
+  text-decoration: none;
+  color: white;
+  border:2px solid oldlace;
+  border-radius: 50%;
+}
+.arrow:hover{
+  background: oldlace;
+  transition: 0.4s ease-in-out;
+  color: black;
+}
+
+
+
+

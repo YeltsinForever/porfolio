@@ -1,7 +1,7 @@
 @media screen and (max-width: 1600px) {
     .work{
-        width:370px;
-        height:250px;
+        width:340px;
+        height:200px;
       }
       figure {
         width: 300px;
@@ -35,29 +35,100 @@
     .lvl-bg{
         width: 300px;
         height: 20px;
-        background-color: #2a2a2a;
       }
       .html-lvl{
         width: 290px;
         height: 20px;
-        background-color:  	red;
       }
       .css-lvl{
         width: 240px;
         height: 20px;
-        background-color: red;
       }
       .js-lvl{
         width: 150px;
         height: 20px;
-        background-color: red;
+
       
       }
       .ps-lvl{
         width: 170px;
         height: 20px;
-        background-color: red;
+
       }
-      
-      
+      .me{
+          width: 460px;
+          height: 460px;
+
+      }
+      .contact{
+          width: 80px;
+          height: 80px;
+      }
 } 
+ @media screen and (max-width: 800px){
+        h1{
+            font-size: 38px;
+        }
+        h2{
+            font-size: 15px;
+        }
+        .dev-items>img{
+            width: 70px;
+            height: 70px;
+    
+        }
+        .lvl-bg{
+            width: 300px;
+            height: 20px;
+          }
+          .html-lvl{
+            width: 290px;
+            height: 20px;
+          }
+          .css-lvl{
+            width: 240px;
+            height: 20px;
+          }
+          .js-lvl{
+            width: 150px;
+            height: 20px;
+    
+          
+          }
+          .ps-lvl{
+            width: 170px;
+            height: 20px;
+    
+          }
+          .me{
+              width: 330px;
+              height: 330px;
+    
+          }
+          .contact{
+              width: 80px;
+              height: 80px;
+          }
+          .s3{
+              padding: 20px;
+              width:100vw;
+              height: 100%;
+          }
+          .s2{
+            padding: 20px;
+            width:100vw;
+            height: 100%;
+            }
+            .s3{
+             padding: 40px;
+                width:100vw;
+             height: 100%;
+                  
+            }
+            .skills{
+                flex-wrap: wrap;
+            }
+            .about h3{
+                font-size: 0.9em;
+            }
+        }

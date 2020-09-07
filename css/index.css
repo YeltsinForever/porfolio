@@ -87,23 +87,23 @@ h3{
 .html-lvl{
   width: 450px;
   height: 30px;
-  background-color:  	red;
+  background-color:  red;
 }
 .css-lvl{
   width: 400px;
   height: 30px;
-  background-color: red;
+  background-color:#0be7fb;
 }
 .js-lvl{
   width: 250px;
   height: 30px;
-  background-color: red;
+  background-color:purple;
 
 }
 .ps-lvl{
   width: 300px;
   height: 30px;
-  background-color: red;
+  background-color:#fecc50;
 }
 .skills{
   display: flex;

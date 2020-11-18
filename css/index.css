@@ -218,6 +218,23 @@ background-image: url(../img/git.jpg);
   transition: 0.3s;
   transform: scale(1.1);
 }
+.lvl-bg>span{
+  position: absolute;
+  opacity: 0;
+  width: 500px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size:22px;
+  transition: 0.3s;
+}
+.lvl-bg>span:hover{
+  opacity:1;
+  transition: 0.4s;
+}
 
 
 

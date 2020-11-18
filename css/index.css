@@ -150,6 +150,7 @@ background-blend-mode: overlay;
 .s4 h1{
   text-align: left;
   padding-left: 150px;
+  padding-bottom: 25px;
 }
 .me{
   width: 500px;
@@ -169,6 +170,7 @@ background-blend-mode: overlay;
  color: whitesmoke;
   font-size: 2rem;
   text-align: left;
+ 
 }
   
 .contact{
@@ -186,6 +188,7 @@ background-blend-mode: overlay;
   align-items: center;
 }
 .contact:nth-child(1){
+  border: 0.4vh solid white;
 background-size: cover;
 background-image: url(../img/git.jpg);
 }
